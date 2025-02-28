@@ -29,7 +29,7 @@ Downloading and executing the script will bring you to the following menu.\
 ![Ollama For AMD Installer Menu](screenshot.png)!\
  \
 Choose your GPU model (**gfxXXXX**) on the dropdown menu + Click **check for new version**.\
-Once the download is done you can close. An Ollama version compatible with your GPU should be installed.
+Once the download is done you can close the program. An Ollama version compatible with your GPU should be installed.
 ## Check logs to find out if Ollama recognizes your AMD GPU
 Run ``ollama run llama3.2:1b`` on **cmd**.\
 Ask the model a question. Once it has finished answering, go to the bottom right corner and click on **Show Hidden Icons -> Ollama -> View logs**.\
