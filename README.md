@@ -8,7 +8,7 @@ Go to the official [AMD site](https://www.amd.com/en/developer/resources/rocm-hu
 > Even if your GPU doesn't appear on the [HIP SDK compatibility chart](https://rocm.docs.amd.com/projects/install-on-windows/en/latest/reference/system-requirements.html#supported-gpus-win),
 > install it. The **Ollama For AMD** script will automatically install the needed extra support.
 ## Find out your GPU model
-To install the required software for your GPU, you will need to know your specific model.\
+To install the required software for your GPU, you will need to know your specific model.
 > **Example:** If you have a Radeon RX 6600, your model should be **gfx1032**
 ### Quickest Method
 Open **cmd/powershell** and type 
