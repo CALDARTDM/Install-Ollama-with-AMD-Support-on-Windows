@@ -21,7 +21,17 @@ clinfo | findstr "Device Name"
 
 ## Download and install [Ollama For AMD](https://github.com/likelovewant/ollama-for-amd) by [likelovewant](https://github.com/likelovewant)
 We won't be installing the Ollama For AMD script directly. Instead we will use the [automated installer](https://github.com/ByronLeeeee/Ollama-For-AMD-Installer) developed 
-by [ByronLeeeee](https://github.com/ByronLeeeee) that does all the hard work.\
-Download the latest release of the installer and execute it. It will generate the following popup.\
-
+by [ByronLeeeee](https://github.com/ByronLeeeee) that does all the hard work.
+### **Download the latest release of the installer and execute it.**
+Executing the installer will generate a windows warning message. This message is safe to ignore since it's related to the script being unknown and is not caused by malware detection.\
+Downloading and executing the script will bring you to the following menu.\
+ \
+![Ollama For AMD Installer Menu](screenshot.png)!\
+ \
+Choose your GPU model (**gfxXXXX**) on the dropdown menu + Click **check for new version**.\
+Once the download is done you can close. An Ollama version compatible with your GPU should be installed.
 ## Check logs to find out if Ollama recognizes your AMD GPU
+Run ``ollama run llama3.2:1b`` on **cmd**.\
+Ask the model a question. Once it has finished answering, go to the bottom right corner and click on **Show Hidden Icons -> Ollama -> View logs**.\
+Go to your oldest **serverX.log** file and search **gfx**. If your GPU model appears then Ollama has succesfully found your GPU.
+
